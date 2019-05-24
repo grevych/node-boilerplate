@@ -13,5 +13,7 @@ module.exports = (db) => {
 
   app.use('/v1/entities', router);
 
+  app.disable('x-powered-by')
+
   return app;
 };
