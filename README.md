@@ -1,33 +1,21 @@
 # Node Boilerplate
+Template repository to create node services using fastify. The code attempts to follow clean architecture principles.
 
 ## Setup
-
-### Requirements
-Install nodejs + yarn:
 ```bash
-$ brew install nodeenv
-$ brew install yarn --without-node
-
-# Node Version X.Y
-$ nodeenv /path/to/your/envs/node
-$ source /path/to/your/envs/node/bin/activate
-$ cd /path/to/waitress/repo/path
-
-$ yarn install
+$ npm install
 ```
 
 #### Database
-
-### Config files
-
+A very lame in-memory database is included to allow basic CRUDS
 
 ## Test
 ```bash
-$ yarn test-unit
-$ yarn --silent run test-path path/to/file
+$ npm test-unit
+$ npm --silent run test-path path/to/file
 ```
 
 ## Run
 ```bash
-$ yarn start
+$ npm run start-dev
 ```
